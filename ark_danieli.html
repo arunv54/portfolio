@@ -1,0 +1,173 @@
+<!DOCTYPE HTML>
+<!--
+	Dopetrope by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Work Experience</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+
+	<!-- Add the CSS styles here -->
+	<style>
+		.youtube-card {
+			margin-top: 20px;
+			text-align: center;
+		}
+
+		.youtube-card iframe {
+			width: 100%;
+			max-width: 800px;
+		}
+	</style>
+</head>
+
+<body class="no-sidebar is-preload">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<section id="header">
+
+			<!-- Logo -->
+			<h1><a href="index.html">Senior Research Engineer </a></h1>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="index.html#experience">Experiences</a></li>
+					<li class="current"><a href="index.html#projects">Projects</a></li>
+					<li><a href="pdfs/resume.pdf" target="_blank">Resume</a></li>
+					<li><a href="index.html#courses">Courses</a></li>
+					<li><a href="index.html#blogs">Blogs</a></li>
+					<li><a href="index.html#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+		</section>
+
+		<!-- Main -->
+		<section id="main">
+			<div class="container">
+
+				<!-- Content -->
+				<article class="box post">
+					<a href="#" class="image featured"></a>
+
+					<header>
+						<h3>Danieli Research Center, Part of Danieli Group</h3>
+						<p>[Jun'24 - Ongoing]</p>
+					</header>
+					<h5>
+						Abstract:
+					</h5>
+			
+					<p>
+						This project focuses on developing a multivariate machine learning framework for predicting longitudinal cracks in thin-slab casting processes. 
+						The model integrates process-level data from mold thermocouples, tundish parameters, stopper rod positions, and mold powder characteristics to capture the thermal and flow variations associated with defect formation. 
+						By employing explainable AI techniques (LIME), the model not only achieves high predictive accuracy but also provides interpretable insights into the root causes of crack formation, enabling data-driven process optimization.
+					</p>
+
+					<h5>Project Details</h5>
+
+					<ul>
+						The study began with extensive data collection from industrial casting operations, encompassing parameters such as mold level fluctuations, tundish temperature and composition, stopper rod movements, and thermocouple readings. 
+						Data preprocessing involved outlier treatment, time-series alignment, and feature engineering to integrate dynamic and steady-state variables influencing crack initiation.
+						Multiple ensemble learning algorithms — including XGBoost, Support Vector Machines (SVM), and Long Short-Term Memory (LSTM) networks — were developed and optimized for classification accuracy and generalization. 
+						Among these, the XGBoost model demonstrated the best trade-off between performance and interpretability, achieving 91% accuracy and an AUC score of 0.82 in predicting longitudinal crack occurrence.
+						The model’s interpretability was enhanced through Local Interpretable Model-Agnostic Explanations (LIME), which revealed the influence of critical process parameters on defect formation. 
+						Key defect drivers such as thermocouple temperature gradients, mold powder type, and stopper rod position were identified as dominant factors through correlation and root-cause analysis. These findings were further validated against metallurgical inspection data.
+						The trained ML model is currently being prepared for deployment at the Hoa Phat Plant, Vietnam (scheduled for January 2026), with a patent filing planned for FY 2026, underscoring the project’s industrial and intellectual property value.
+					</ul>
+
+					<h5>Conclusion:</h5>
+					<ul>
+						The developed ML framework demonstrated that data-driven techniques can predict longitudinal crack formation in continuous casting with high reliability. 
+						The model should theoretically work well, but given the uncertainty in implementation, any problems encountered will be analyzed further. 
+						Three models were developed: one predicts whether the heat is bad or good, another predicts whether the slabs obtained from the heat are defective, and the final model instantaneously predicts the upcoming longitudinal crack within 120 seconds. 
+						The use of explainable AI bridged the gap between model performance and industrial interpretability, providing actionable insights. 
+						The sensors and actuators linked with the model will help in real-time monitoring and control of casting parameters to minimize defect rates. 
+						This project lays the groundwork for implementing real-time predictive maintenance systems in casting lines and represents a significant step toward intelligent steel manufacturing.
+					</ul>
+
+					<h5>Skills Obtained:</h5>
+
+					<p>
+						<ul>
+							<li><strong>Programming & Data Science:</strong> Python</li>
+							<li><strong>ML Models:</strong> XGBoost, SVM, LightGBM, CatBoost</li>
+							<li><strong>Deep Learning:</strong> LSTM</li>
+							<li><strong>Explainable AI:</strong> LIME</li>
+							<li><strong>ML Approach:</strong> Feature engineering, Time-Series Analysis, Data drift analysis, Data Filtering and Imputation, Data Cleaning</li>
+							<li><strong>Predictive Maintenance</strong></li>
+							<li><strong>Domain Algorithms:</strong> Mechanical metallurgy-based algorithms for false positive identification</li>
+							<li><strong>Data Visualization:</strong> Matplotlib, Seaborn, Plotly</li>
+						</ul>
+					</p>
+
+					<!-- <img src="images/stent.png" alt="" width="500" height="333"/> -->
+					<img src="images/stent.png" alt=""
+						style="max-width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+					<!-- <img src="images/stent_comp.png" alt="" width="550" height="333"/> -->
+					<img src="images/stent_comp.png" alt=""
+						style="max-width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+
+				</article>
+
+			</div>
+
+		</section>
+
+		<!-- Footer -->
+		<section id="footer">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-4 col-12-medium">
+						<a name="contact"></a>
+						<section>
+							<header>
+								<h2>Contact</h2>
+							</header>
+							<ul class="social">
+								<li><a class="icon solid fa-envelope"
+										href="https://mail.google.com/mail/?view=cm&fs=1&to=arunvmsiitt@gmail.com"
+										target="_blank"><span class="label">Email</span></a></li>
+								<li><a class="icon brands fa-github" href="https://github.com/ark-nemesis"
+										target="_blank"><span class="label">Github</span></a></li>
+								<li><a class="icon brands fa-linkedin-in"
+										href="https://www.linkedin.com/in/arunkumar-v-756198236" target="_blank"><span
+											class="label">LinkedIn</span></a></li>
+							</ul>
+						</section>
+					</div>
+					<!-- <div class="col-12">
+
+								<div id="copyright">
+									<ul class="links">
+										<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+									</ul>
+								</div>
+
+						</div> -->
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

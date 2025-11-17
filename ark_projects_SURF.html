@@ -1,0 +1,181 @@
+<!DOCTYPE HTML>
+<!--
+	Dopetrope by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Projects</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+
+	<!-- Add the CSS styles here -->
+	<style>
+		.youtube-card {
+			margin-top: 20px;
+			text-align: center;
+		}
+
+		.youtube-card iframe {
+			width: 100%;
+			max-width: 800px;
+		}
+	</style>
+</head>
+
+<body class="no-sidebar is-preload">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<section id="header">
+
+			<!-- Logo -->
+			<h1><a href="index.html">Design and Development of a novel Surface-cum-Underwater Robotic System</a></h1>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="index.html#experience">Experiences</a></li>
+					<li class="current"><a href="index.html#projects">Projects</a></li>
+					<li><a href="pdfs/resume.pdf" target="_blank">Resume</a></li>
+					<li><a href="index.html#courses">Courses</a></li>
+					<li><a href="index.html#blogs">Blogs</a></li>
+					<li><a href="index.html#contact">Contact</a></li>
+				</ul>
+			</nav>
+
+		</section>
+
+		<!-- Main -->
+		<section id="main">
+			<div class="container">
+
+				<!-- Content -->
+				<article class="box post">
+					<a href="#" class="image featured"></a>
+
+					<header>
+						<h3>Guide: Thiyagarajan R - IIT Tirupati</h3>
+						<p>[July'23 - July'24]</p>
+					</header>
+					<p>
+						The project aims to design and develop a surface-cum-underwater robot with the capability to navigate on the water's surface and perform underwater dives. 
+						This unique feature is not commonly found in existing underwater robots and enables contiguous motion between surface and underwater.
+					</p>
+
+					<h5> Project Details</h5>
+
+					<ol>
+						<li><strong> Principle Used</strong> 
+						Designed and developed a surface-cum-underwater robot that utilises the principle of buoyancy to achieve surface-underwater transitions. Buoyancy control with both change in volume and change in mass is implemented. For Change in volume, an extendible metallic below is used to alter the robot's volume, 
+						while for change in mass, a water ballast system is employed to adjust the robot's masss. The robot dimennsions are 13.75cm dia x 1.2 m in length and weighs around 10 kg.
+						</li>
+						<li><strong>Subsystems Integrated</strong>
+							<ul>
+								<li><strong>Electronics Subsystem:</strong> Includes essential sensors (pressure sensor, leak sensors), microcontroller (Arduino Uno), GPS module, GoPro camera, and BEC. This subsystem serves as the central control unit, enabling the robot to perform dive-in and dive-out maneuvers at specified locations.</li>
+								<li><strong>Structural Subsystem:</strong> Utilizes 3D-printed parts and aluminum rods to house and support all components. Acrylic Cylinder is used for housing the components. CFD and structural analyses were conducted to design the rudder and other components, ensuring stability under water currents. The housing design strategically positions the center of mass at the robot's volumetric origin at the start of the system.</li>
+								<li><strong>Variable Buoyancy System:</strong> The change-of-mass prototype incorporates a water ballast (2L capacity) operated by a diaphragm pump to control water intake and discharge. The change-of-volume prototype employs a ball-screw mechanism and an extensible bellow to adjust the robot's volume which alters the center of buoyancy value and shifts it to desired position.</li>
+								<li><strong>Center-of-Mass Shift Subsystem:</strong> To achieve stable underwater transitions, a novel system including a movable battery pack controlled by a NEMA 23 stepper motor is used to shift the robot's center of mass.  The system first attains a vertical position, then performs the dive-in maneuver by adjusting buoyancy until the desired depth is reached.</li>
+							</ul>
+						</li>
+						<li><strong>Mathematical Modeling and Simulations</strong>
+							A comprehensive mathematical model of the robot was developed using the Newton-Euler method, incorporating all integrated subsystems. The surface navigation model is based on principles from Thor I. Fossen’s ‘Handbook of Marine Craft Hydrodynamics and Motion Control,’ and a flat-fish autonomous model was adopted for underwater navigation. Simulations in MATLAB Simulink were performed to analyze the robot's behavior and stability. Additionally, CFD simulations were conducted to determine the drag and lift coefficients of the hull and rudder at various angles of attack.
+						</li>
+						<li>
+							<strong>The prototype is currently under the patenting process from IIT Tiruapti.</strong>  
+						</li>
+					</ol>
+					<h6> 
+						Skills Obtained:
+					</h6>
+					<ul>
+						<li>Performed detailed CAD design of the model in SolidWorks and drafted components for manufacturing according to ASME tolerances.</li>
+						<li>Programmed a preliminary control system in Arduino to adjust the battery position based on depth and tilt data, enabling precise center-of-mass adjustment during dive-in and dive-out conditions.</li>
+						<li>Conducted CFD simulations using ANSYS Fluent and performed structural analysis with ANSYS Workbench.</li>
+					</ul>
+
+					<!-- <img src="images/alexa_manipulator_2.png" alt="" width="500" height="333"/> -->
+					<img src="images/alexa_manipulator_2.png" alt=""
+						style="max-width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+					<!-- <img src="images/alexa_manipulator_3.png" alt="" width="500" height="333"/> -->
+					<img src="images/alexa_manipulator_3.png" alt=""
+						style="max-width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto;">
+
+					<!-- <iframe width="100%" height="350" src="https://www.youtube.com/embed/hS93uA4jWdc?si=6vO0hnSf57ipE2iI"
+						title="YouTube video player" frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+						allowfullscreen
+						style="display: block; margin: 0 auto; margin-bottom: 20px; margin-top: 20px;"></iframe> -->
+
+					<div style="position: relative; width: 100%; height: 0; padding-bottom: 56.25%; margin: 20px 0;">
+						<iframe src="https://www.youtube.com/embed/hS93uA4jWdc?si=6vO0hnSf57ipE2iI"
+							title="YouTube video player" frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+							allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+						</iframe>
+					</div>
+				</article>
+
+			</div>
+
+		</section>
+
+		<!-- Footer -->
+		<section id="footer">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-4 col-12-medium">
+						<a name="contact"></a>
+						<section>
+							<header>
+								<h2>Contact</h2>
+							</header>
+							<ul class="social">
+								<li><a class="icon solid fa-envelope"
+										href="https://mail.google.com/mail/?view=cm&fs=1&to=sumukh.porwal@gmail.com"><span
+											class="label">Email</span></a></li>
+								<li><a class="icon brands fa-github" href="https://github.com/Sumukh18"><span
+											class="label">Github</span></a></li>
+								<li><a class="icon brands fa-instagram"
+										href="https://www.instagram.com/porwal_sumukh/"><span
+											class="label">Instagram</span></a></li>
+								<li><a class="icon brands fa-linkedin-in"
+										href="https://www.linkedin.com/in/sumukh-porwal-6a1393186/"><span
+											class="label">LinkedIn</span></a></li>
+								<li><a class="icon brands fa-youtube"
+										href="https://www.youtube.com/channel/UCb4YZ6K72Yt9oxVB6j2siUQ"><span
+											class="label">YouTube</span></a></li>
+							</ul>
+						</section>
+					</div>
+					<!-- <div class="col-12">
+
+								<div id="copyright">
+									<ul class="links">
+										<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+									</ul>
+								</div>
+
+						</div> -->
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
