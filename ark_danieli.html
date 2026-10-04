@@ -76,7 +76,7 @@
 
 					<ul>
 						The study began with extensive data collection from industrial casting operations, encompassing parameters such as mold level fluctuations, tundish temperature and composition, stopper rod movements, and thermocouple readings. 
-						Data preprocessing involved outlier treatment with Random Forest, LOF and other process based methods. Furthermore, time-series alignment and feature engineering were also perfomed to integrate dynamic and steady-state variables influencing crack initiation.
+						Data preprocessing involved outlier treatment with Isolation Forest, Inter Quantile Range(IQR), LOF and other process based methods. Furthermore, time-series alignment and feature engineering were also perfomed to integrate dynamic and steady-state variables influencing crack initiation.
 						Multiple machine learning and deep learning algorithms, including XGBoost, CATBoost, Gated Recurrent Unit (GRU) and Long Short-Term Memory (LSTM) networks were developed and optimized for classification accuracy and F1 metrics improvement. 
 						Among these, the XGBoost model demonstrated the best trade-off between performance, inference efficiency and interpretability, achieving 94% accuracy and an AUC-ROC score of 0.82 in predicting longitudinal crack occurrence. We also achieved an F1 Score greater than 0.7 on particular test sets.
 						The model’s interpretability was enhanced through Local Interpretable Model-Agnostic Explanations (LIME) and SHAP values, which revealed the influence of critical process parameters on defect formation. 
